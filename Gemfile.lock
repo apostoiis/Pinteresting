@@ -10,6 +10,16 @@ GIT
   specs:
     rails_log_stdout (0.0.1)
 
+GIT
+  remote: git://github.com/thoughtbot/paperclip.git
+  revision: ae802a3442bffa18384c03ced7ab1c21afbd6815
+  specs:
+    paperclip (4.2.0)
+      activemodel (>= 3.0.0)
+      activesupport (>= 3.0.0)
+      cocaine (~> 0.5.3)
+      mime-types
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -44,6 +54,10 @@ GEM
     bootstrap-sass (3.1.1.1)
       sass (~> 3.2)
     builder (3.2.2)
+    climate_control (0.0.3)
+      activesupport (>= 3.0)
+    cocaine (0.5.4)
+      climate_control (>= 0.0.3, < 1.0)
     coffee-rails (4.0.1)
       coffee-script (>= 2.2.0)
       railties (>= 4.0.0, < 5.0)
@@ -142,6 +156,7 @@ DEPENDENCIES
   devise
   jbuilder (~> 2.0)
   jquery-rails
+  paperclip!
   pg
   rails (= 4.1.4)
   rails3_serve_static_assets!
